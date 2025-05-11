@@ -36,7 +36,7 @@ function HeaderSection() {
             />
           </h1>
           <p className="text-[ADB7BE] text-base sm:text- lg mb-6 lg:text-xl ">
-          I specialize in front-end technologies including ReactJS, Redux, JavaScript, HTML, CSS, SASS, and TypeScript. I have a strong foundation in using Next.js for server-side rendering and creating high-performance web applications.
+          I specialize in front-end technologies including ReactJS, Redux, JavaScript, HTML, CSS, SASS, and TypeScript. I also have experience building scalable low-code applications using Mendix. Additionally, I have a strong foundation in using Next.js for server-side rendering and creating high-performance web applications.
           </p>
           <div>
             <Link
@@ -56,15 +56,15 @@ function HeaderSection() {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          {/* <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative"> */}
+          <div className="rounded-full shadow-md shadow-pink-400 bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/my-pic.png"
-              // className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="profile"
-              width={350}
-              height={350}
+              width={380}
+              height={380}
             />
-          {/* </div> */}
+          </div>
           </motion.div>
       </div>
     </section>

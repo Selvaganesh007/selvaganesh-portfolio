@@ -1,0 +1,119 @@
+import Image from "next/image";
+
+const SkillsSection = () => {
+  return (
+    <section id="skills">
+      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+        Technologies & Tools
+      </h2>
+      <div>
+        <div className="flex gap-16 flex-wrap justify-center">
+          <Image
+            src="/images/skills/mendix.png"
+            alt="mendix"
+            width={120}
+            height={50}
+          />
+          <Image
+            src="/images/skills/html.png"
+            alt="html"
+            width={130}
+            height={50}
+          />
+          <Image
+            src="/images/skills/css.png"
+            alt="css"
+            width={130}
+            height={50}
+          />
+          <Image
+            src="/images/skills/sass.png"
+            alt="sass"
+            width={130}
+            height={50}
+          />
+          <Image
+            src="/images/skills/tcss.png"
+            alt="tailwindcss"
+            width={130}
+            height={50}
+          />
+          <Image
+            src="/images/skills/javascript.png"
+            alt="javascript"
+            width={130}
+            height={50}
+          />
+          <Image
+            src="/images/skills/react.png"
+            alt="react"
+            width={130}
+            height={50}
+          />
+          <Image
+            src="/images/skills/redux.png"
+            alt="redux"
+            width={120}
+            height={50}
+          />
+          <Image
+            src="/images/skills/node.png"
+            alt="node"
+            width={130}
+            height={50}
+          />
+          <Image
+            src="/images/skills/next.png"
+            alt="next"
+            width={130}
+            height={50}
+          />
+          <Image
+            src="/images/skills/mongo.png"
+            alt="mongo"
+            width={130}
+            height={50}
+          />
+          <Image
+            src="/images/skills/express.png"
+            alt="express"
+            width={180}
+            height={50}
+          />
+          <Image
+            src="/images/skills/git.png"
+            alt="git"
+            width={130}
+            height={50}
+          />
+          <Image
+            src="/images/skills/gitlab.png"
+            alt="gitlab"
+            width={180}
+            height={50}
+          />
+          <Image
+            src="/images/skills/figma.png"
+            alt="figma"
+            width={130}
+            height={50}
+          />
+          <Image
+            src="/images/skills/postman.png"
+            alt="postman"
+            width={120}
+            height={50}
+          />
+          <Image
+            src="/images/skills/vs.png"
+            alt="vscode"
+            width={120}
+            height={50}
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default SkillsSection;

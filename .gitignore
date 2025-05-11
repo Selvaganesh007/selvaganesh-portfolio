@@ -1,1 +1,49 @@
-node_modules
+node_modules# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+.swc/
+
+# Production
+out/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+*.env
+*.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/
+
+# Optional: If using a package manager other than npm/yarn
+# pnpm-lock.yaml
+# or
+# bun.lockb
+
+# Coverage reports
+coverage/
+
+# Editor and IDE files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Webpack cache and temporary files
+.next/cache/webpack/

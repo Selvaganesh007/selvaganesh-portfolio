@@ -1,10 +1,12 @@
 import AboutSection from "./components/AboutSection";
 import AchievementsSection from "./components/AchievementSection";
-import EmailSection from "./components/EmailSection";
+import ContactSection from "./components/ContactSection";
+import EducationSection from "./components/EducationSection";
 import Footer from "./components/Footer";
 import HeaderSection from "./components/HeaderSection";
 import Navbar from "./components/Navbar";
 import ProjectSection from "./components/ProjectSection";
+import SkillsSection from "./components/SkillsSection";
 
 export default function Home() {
   return (
@@ -14,8 +16,10 @@ export default function Home() {
         <HeaderSection />
         <AchievementsSection />
         <AboutSection />
+        <SkillsSection />
         <ProjectSection />
-        <EmailSection />
+        <EducationSection />
+        <ContactSection />
       </div>
       <Footer />
     </main>
