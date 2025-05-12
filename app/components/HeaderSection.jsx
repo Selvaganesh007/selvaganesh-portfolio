@@ -22,7 +22,7 @@ function HeaderSection() {
             <TypeAnimation
               sequence={[
                 "React Developer",
-                1000,  
+                1000,
                 "Full Stack Developer",
                 1000,
                 "MERN Stack Developer",
@@ -35,10 +35,14 @@ function HeaderSection() {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[ADB7BE] text-sm text-lg mb-6 md:text-2xl">
-          I specialize in front-end technologies including ReactJS, Redux, JavaScript, HTML, CSS, SASS, and TypeScript. I also have experience building scalable low-code applications using Mendix. Additionally, I have a strong foundation in using Next.js for server-side rendering and creating high-performance web applications.
+          <p className="text-[ADB7BE] text-sm text-lg md:text-2xl">
+            I specialize in front-end technologies including ReactJS, Redux,
+            JavaScript, HTML, CSS, SASS, and TypeScript. I also have experience
+            building scalable low-code applications using Mendix. Additionally,
+            I have a strong foundation in using Next.js for server-side
+            rendering and creating high-performance web applications.
           </p>
-          <div>
+          <div className="py-8">
             <Link
               href="https://drive.google.com/file/d/1U0kugSbamVOw6VG5RFyjpW_2AtYBkwyc/view?usp=drive_link"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
@@ -49,7 +53,7 @@ function HeaderSection() {
               </span>
             </Link>
           </div>
-          </motion.div>
+        </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -65,7 +69,7 @@ function HeaderSection() {
               height={380}
             />
           </div>
-          </motion.div>
+        </motion.div>
       </div>
     </section>
   );

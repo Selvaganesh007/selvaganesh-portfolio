@@ -1,5 +1,6 @@
 import AboutSection from "./components/AboutSection";
 import AchievementsSection from "./components/AchievementSection";
+import CertificationSection from "./components/CertificationSection";
 import ContactSection from "./components/ContactSection";
 import EducationSection from "./components/EducationSection";
 import Footer from "./components/Footer";
@@ -17,6 +18,7 @@ export default function Home() {
         <AchievementsSection />
         <AboutSection />
         <SkillsSection />
+        <CertificationSection />
         <ProjectSection />
         <EducationSection />
         <ContactSection />
