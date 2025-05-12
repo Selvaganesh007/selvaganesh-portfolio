@@ -3,7 +3,7 @@ import { SquareArrowOutUpRight } from "lucide-react";
 
 const CertificationSection = () => {
   return (
-    <section id="contact" className="text-center py-8">
+    <section id="certifications" className="text-center py-8">
       <h2 className="text-center text-4xl font-bold text-white mt-8 mb-8 md:mb-12">
         Certifications
       </h2>
@@ -46,7 +46,7 @@ const CertificationSection = () => {
             </div>
           </div>
           <div className="md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
-            <div className="font-bold pb-3">Javascript</div>
+            <div className="font-bold pb-3">Full Stack Developer</div>
             <div>Issued on May, 2021</div>
             <div>Issuing organization: <span className="font-semibold text-purple-500">GUVI Geek Networks, IITM Research Park, Chennai, Tamilnadu.</span></div>
             <div className="my-2">Credential ID: <span className="font-bold text-purple-500">r189hF64ECUv6610u8</span></div>
