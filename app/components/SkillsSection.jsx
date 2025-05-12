@@ -77,19 +77,13 @@ const SkillsSection = () => {
           <Image
             src="/images/skills/express.png"
             alt="express"
-            width={180}
+            width={130}
             height={50}
           />
           <Image
             src="/images/skills/git.png"
             alt="git"
             width={130}
-            height={50}
-          />
-          <Image
-            src="/images/skills/gitlab.png"
-            alt="gitlab"
-            width={180}
             height={50}
           />
           <Image
@@ -107,7 +101,7 @@ const SkillsSection = () => {
           <Image
             src="/images/skills/vs.png"
             alt="vscode"
-            width={120}
+            width={100}
             height={50}
           />
         </div>

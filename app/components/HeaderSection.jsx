@@ -15,7 +15,7 @@ function HeaderSection() {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+          <h1 className="text-white mb-4 md:text-4xl text-2xl lg:text-6xl font-extrabold">
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
               Hello, I`m Selvaganesh{""}
             </span>
@@ -35,7 +35,7 @@ function HeaderSection() {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[ADB7BE] text-base sm:text- lg mb-6 lg:text-xl ">
+          <p className="text-[ADB7BE] text-sm text-lg mb-6 md:text-2xl">
           I specialize in front-end technologies including ReactJS, Redux, JavaScript, HTML, CSS, SASS, and TypeScript. I also have experience building scalable low-code applications using Mendix. Additionally, I have a strong foundation in using Next.js for server-side rendering and creating high-performance web applications.
           </p>
           <div>

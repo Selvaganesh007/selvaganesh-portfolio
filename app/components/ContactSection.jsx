@@ -6,14 +6,14 @@ const ContactSection = () => {
   return (
     <section id="contact" className="text-center py-8">
       <h2 className="text-4xl font-bold text-white m-8">
-        Contact me...
+        Contact me
       </h2>
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
 
-      <p className="text-4xl font-bold block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+      <p className="md:text-4xl text-2xl font-bold block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
         Feel free to reach out me any questions and opportunities!
       </p>
-      <p className="text-[#ADB7BE] m-4">
+      <p className="text-[#ADB7BE] m-4 md:text-2xl text-sm">
         I&apos;m currently looking for new opportunities, my inbox is always
         open. Whether you have a question or just want to say hi, I&apos;ll try
         my best to get back to you!

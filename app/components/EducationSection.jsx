@@ -4,7 +4,7 @@ const EducationSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-8 mb-8 md:mb-12">
         Education
       </h2>
-      <div className="flex flex-row-reverse justify-around font-bold">
+      <div className="flex flex-row-reverse flex-wrap gap-10 justify-around">
         <div className="p-3 rounded-2xl shadow-md shadow-purple-600">
           <div>Secondary School Examination</div>
           <div>Nadar Higher Secondary School, Kovilpatti.</div>
