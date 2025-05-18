@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-black text-white;
+}

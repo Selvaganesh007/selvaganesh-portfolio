@@ -9,7 +9,7 @@ const CertificationSection = () => {
       </h2>
       <div className="flex text-xl md:text-3xl flex-wrap gap-10">
         <div className="flex text-lg md:text-2xl flex-wrap gap-10 justify-around w-full">
-          <div className="md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
+          <div className="bg-gray-800 md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
             <div className="font-bold pb-3">Javascript</div>
             <div>Issued on May, 2021</div>
             <div>Issuing organization: <span className="font-semibold text-purple-500">GUVI Geek Networks, IITM Research Park, Chennai, Tamilnadu.</span></div>
@@ -27,7 +27,7 @@ const CertificationSection = () => {
               </Link>
             </div>
           </div>
-          <div className="md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
+          <div className="bg-gray-800 md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
             <div className="font-bold pb-3">Full Stack Web Developer</div>
             <div>Issued on Mar, 2023</div>
             <div>Issuing organization: <span className="font-semibold text-purple-500">Crampete learning center, Chennai, Tamilnadu.</span></div>
@@ -45,7 +45,7 @@ const CertificationSection = () => {
               </Link>
             </div>
           </div>
-          <div className="md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
+          <div className="bg-gray-800 md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
             <div className="font-bold pb-3">Full Stack Developer</div>
             <div>Issued on May, 2021</div>
             <div>Issuing organization: <span className="font-semibold text-purple-500">GUVI Geek Networks, IITM Research Park, Chennai, Tamilnadu.</span></div>
@@ -63,7 +63,7 @@ const CertificationSection = () => {
               </Link>
             </div>
           </div>
-          <div className="md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
+          <div className="bg-gray-800 md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
             <div className="font-bold pb-3">Mendix Rapid Developer</div>
             <div>Issued on July, 2024</div>
             <div>Issuing organization: <span className="font-semibold text-purple-500">Mendix</span></div>
@@ -81,7 +81,7 @@ const CertificationSection = () => {
               </Link>
             </div>
           </div>
-          <div className="md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
+          <div className="bg-gray-800 md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
             <div className="font-bold pb-3">Learning TypeScript</div>
             <div>Issued on June, 2024</div>
             <div>Issuing organization: <span className="font-semibold text-purple-500">LinkedIn Learning</span></div>
@@ -99,7 +99,7 @@ const CertificationSection = () => {
               </Link>
             </div>
           </div>
-          <div className="md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
+          <div className="bg-gray-800 md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
             <div className="font-bold pb-3">Learning Next.js</div>
             <div>Issued on May, 2024</div>
             <div>Issuing organization: <span className="font-semibold text-purple-500">LinkedIn Learning</span></div>
@@ -117,7 +117,7 @@ const CertificationSection = () => {
               </Link>
             </div>
           </div>
-          <div className="md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
+          <div className="bg-gray-800 md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
             <div className="font-bold pb-3">Backend Web Dev with NodeJS</div>
             <div>Issued on June, 2021</div>
             <div>Issuing organization: <span className="font-semibold text-purple-500">Google Developer Group, Ranchi, Jharkhand.</span></div>
@@ -135,7 +135,7 @@ const CertificationSection = () => {
               </Link>
             </div>
           </div>
-          <div className="md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
+          <div className="bg-gray-800 md:p-10 p-4 rounded-2xl text-left shadow-[0px_0px_12px_-5px_#9C27B0] lg:w-2/5 w-full">
             <div className="font-bold pb-3">Javascript and ReactJS Bootcamp</div>
             <div>Issued on May, 2024</div>
             <div>Issuing organization: <span className="font-semibold text-purple-500">DevTown.</span></div>

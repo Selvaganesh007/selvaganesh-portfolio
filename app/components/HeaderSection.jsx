@@ -44,9 +44,10 @@ function HeaderSection() {
           </p>
           <div className="py-8">
             <Link
-              href="https://drive.google.com/file/d/1U0kugSbamVOw6VG5RFyjpW_2AtYBkwyc/view?usp=drive_link"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+              href="/resume.pdf"
+              download="Selvaganesh_Resume.pdf"
               target="_blank"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block text-black bg-purple-500 hover:bg-slate-800 hover:text-white rounded-full px-5 py-2">
                 Download CV
