@@ -51,13 +51,13 @@ const projectData = [
   },
   {
     id: 6,
-    title: "Gym Equipment Website",
-    description: "Elevate your fitness journey with premium gym equipment designed for optimal performance",
-    image: "/images/projects/p6.png",
-    tag: ["All", "Static"],
-    gitUrl: "https://github.com/Selvaganesh007/gym_Equipment_website01",
-    previewUrl: "https://selvaganesh007.github.io/gym_Equipment_website01/",
-  },
+    title: "Expense tracker web application",
+    description: "A simple yet powerful Expense & Income Tracker web app to manage personal finances effectively. Includes dynamic dashboards, category management, data export/import, and beautiful responsive UI.",
+    image: "/images/projects/p7.png",
+    tag: ["All", "Dynamic"],
+    gitUrl: "https://github.com/Selvaganesh007/expense-tracker",
+    previewUrl: "https://expense-tracker-phi-nine-61.vercel.app/",
+  }
 ];
 
 const ProjectSection = () => {
