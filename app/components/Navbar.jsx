@@ -11,6 +11,10 @@ const navLinks = [
     path: "#about",
   },
   {
+    title: "Work Experience",
+    path: "#workexperience",
+  },
+  {
     title: "Skills",
     path: "#skills",
   },
@@ -40,7 +44,7 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-1xl md:text-2xl text-purple-400 font-semibold"
+          className="text-4xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent"
         >
           M.Selvaganesh B.Sc.,MCA.,
         </Link>
