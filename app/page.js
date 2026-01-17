@@ -12,7 +12,7 @@ import WorkExperience from "./components/WorkExperience";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-gradient-to-br from-slate-950 via-slate-900 to-black text-white">
+    <main className="flex min-h-screen flex-col bg-gradient-to-bl from-slate-950 via-slate-900 to-black text-white">
       <Navbar />
       <div className="container mt-24 mx-auto md:px-12 py-4 px-6">
         <HeaderSection />
